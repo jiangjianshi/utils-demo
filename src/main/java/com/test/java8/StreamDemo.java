@@ -27,7 +27,6 @@ public class StreamDemo {
         //lambda map
         List<Double> cost = Arrays.asList(10.0, 20.0, 30.0);
         cost.stream().map(x -> x + x * 0.05).forEach(x -> System.out.println(x));
-        CollectionUtils.isEmpty()
 
         //lambda reduce
 //        List<Double> cost = Arrays.asList(10.0, 20.0, 30.0);
